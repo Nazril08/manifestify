@@ -184,4 +184,21 @@ button:disabled {
     background-color: #17a2b8;
     color: white;
     display: block;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.notification.show {
+    opacity: 1;
 } 
