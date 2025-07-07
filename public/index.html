@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main class="container">
+        <div class="icon-container">
+            <!-- Ikon Gamepad akan ditambahkan via CSS -->
+        </div>
+        <h1>Game Downloader</h1>
+        <p>Masukkan AppID untuk memulai unduhan.</p>
+        <form id="download-form" action="/api/download" method="GET">
+            <div class="form-group">
+                <label for="appId">AppID</label>
+                <input type="text" id="appId" name="appId" placeholder="Contoh: 730" required>
+            </div>
+            <button type="submit" id="download-btn">Download</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html> 
