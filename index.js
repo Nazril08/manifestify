@@ -53,7 +53,7 @@ app.get('/api/download', async (req, res) => {
   }
 
   const gameName = await getGameName(appId);
-  const finalFileName = `${sanitizeFileName(gameName)}.zip`;
+  const finalFileName = `${sanitizeFileName(gameName)}-Nzr.zip`;
 
   try {
     for (const repo of REPOSITORIES) {

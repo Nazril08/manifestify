@@ -1,5 +1,5 @@
 {
-  "name": "web-downloader",
+  "name": "web-downloader-nzr",
   "version": "1.0.0",
   "description": "API service to download game files from GitHub repositories.",
   "main": "index.js",
